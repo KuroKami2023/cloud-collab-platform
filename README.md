@@ -6,6 +6,10 @@ A full-stack file sharing and real-time collaboration platform built with **Node
 
 ---
 
+> 💡 **Portfolio demo:** A simplified browser-based version is available in the [portfolio website](https://kurokami2023.github.io).
+
+---
+
 ## ✨ Features
 
 - ✅ **User Authentication** — Register/login with bcryptjs-hashed passwords, session-based auth with httpOnly cookies
