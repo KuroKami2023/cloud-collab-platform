@@ -1,12 +1,7 @@
 # ☁️ CloudCollab Platform — File Sharing & Real-Time Collaboration
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?logo=socket.io&logoColor=white)
-![bcrypt](https://img.shields.io/badge/bcrypt-Auth-4A90D9)
-
+[]()
+[](LICENSE)
 A full-stack file sharing and real-time collaboration platform built with **Node.js**, **Express**, and **Socket.io**. Features user authentication, collaboration rooms, file uploads with multer, and live activity feeds — all powered by a zero-config JSON database.
 
 ---
@@ -24,8 +19,6 @@ A full-stack file sharing and real-time collaboration platform built with **Node
 - ✅ **Zero Configuration** — Clone, install, run — works out of the box
 
 ---
-
-## 📸 Screenshot
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -47,8 +40,6 @@ A full-stack file sharing and real-time collaboration platform built with **Node
 │          │  └──────────────────────────────────────┘ │
 └──────────┴──────────────────────────────────────────┘
 ```
-
-> *Screenshot placeholder — replace with an actual screenshot of the platform.*
 
 ---
 
