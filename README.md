@@ -239,39 +239,8 @@ That's it. The `data/` directory and `db.json` are created automatically on firs
 
 ---
 
-## 🌐 Deployment
-
-### Render
-
-```bash
-# Connect GitHub repository
-# Build command: npm install
-# Start command: npm start
-# Environment: Node
-```
-
-### Railway
-
-```bash
-railway login
-railway up
-```
-
-### Fly.io
-
-```bash
-fly launch
-fly deploy
-```
-
-### Heroku
-
-```bash
-heroku create
-git push heroku main
-```
-
 ---
+
 
 ## 📄 License
 
