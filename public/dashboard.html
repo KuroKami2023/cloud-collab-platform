@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CloudCollab - Dashboard</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">CloudCollab</div>
+    <div class="nav-user">
+      <span id="nav-username"></span>
+      <button id="logout-btn" class="btn btn-sm btn-secondary">Logout</button>
+    </div>
+  </nav>
+
+  <div class="dashboard">
+    <aside class="sidebar">
+      <section class="sidebar-section">
+        <h3>Collaboration Rooms</h3>
+        <div class="room-list" id="room-list"></div>
+        <div class="room-create">
+          <input type="text" id="new-room-name" placeholder="New room name">
+          <button id="create-room-btn" class="btn btn-sm btn-primary">Create</button>
+        </div>
+      </section>
+    </aside>
+
+    <main class="main-content">
+      <section class="files-section">
+        <div class="section-header">
+          <h2>Files</h2>
+          <div class="upload-area">
+            <input type="file" id="file-input" hidden>
+            <button id="upload-btn" class="btn btn-primary">Upload File</button>
+          </div>
+        </div>
+        <div class="file-list" id="file-list">
+          <p class="empty-state">No files uploaded yet. Upload your first file!</p>
+        </div>
+      </section>
+
+      <section class="activity-section">
+        <h2>Activity Feed</h2>
+        <div class="activity-feed" id="activity-feed">
+          <p class="empty-state">No activity yet.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
